@@ -26,7 +26,7 @@ const Body = () => {
                 <img src={images} alt='image' className='Body_section_img' />
                 <div className='Body_section_content'>
                     <h1 className='Body_section_content_header'>Full  Stack  Web Developer </h1>
-                    <p className='Body_section_content_paragraphe'>Plus d'un an d'expérience sur le marché du travail au Maroc dans le domaine web development, je crée des applications et des sites Web de haute qualité, et les outils utilisés en back-end sont java/JEE, quant à la construction d'interfaces Front-end pour l'utilisateur, j'utilise framework javascript react js.</p>
+                    <p className='Body_section_content_paragraphe'>Plus d'un an d'expérience sur le marché du travail au Maroc dans le domaine web development, je crée des applications et des sites Web de haute qualité, et les outils utilisés en back-end sont java/JEE, quant à la construction d'interfaces Front-end pour l'utilisateur, j'utilise framework javascript react js. </p>
                     <ul className='Body_section_content_list'>
                         <li className='Body_section_content_list_item'>
                             <span><BsInstagram /></span>

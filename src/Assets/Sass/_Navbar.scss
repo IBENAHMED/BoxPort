@@ -1,0 +1,22 @@
+.Navbar {
+    flex: 10% 0 0;
+    background-color: $white;
+    @include Position_Section();
+    @include flex(center, left, column);
+
+    &_header {
+        font-family: cursive;
+        padding: 0;
+        margin: 0;
+        color: $black;
+        font-weight: bold;
+    }
+
+    &_paragraphe {
+        padding: 0;
+        margin: 4px 0 0 60px;
+        font-weight: 100;
+        font-size: 14px;
+        color: $bluefort;
+    }
+}

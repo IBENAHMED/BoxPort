@@ -1,0 +1,128 @@
+.Body {
+    flex: 80% 0 0;
+    @include Position_Section();
+    margin-top: 70px;
+
+    &_section {
+        width: 100%;
+        height: 450px;
+        @include flex(space-between, flex-start, row);
+
+        @include XLargeDevices() {
+            margin-top: 120px;
+            @include flex(center, center, column);
+        }
+
+        gap: 10%;
+
+        &_img {
+            filter: blur(1px);
+            width: 500px;
+            border-radius: 6px;
+
+            @include MediumDevices() {
+                width: 400px;
+            }
+
+            @media (max-width: 450px) {
+                width: 300px;
+            }
+        }
+
+        &_content {
+            height: 100%;
+            @include flex(space-between, space-between, column);
+
+            &_header {
+                font-family: cursive;
+                font-weight: bold;
+                font-size: 80px;
+                text-align: center;
+
+                @include XLargeDevices() {
+                    font-size: 40px;
+                }
+
+                margin: 0px;
+                padding: 0px;
+                color: $bluefort;
+            }
+
+            &_paragraphe {
+                line-height: 25px;
+                margin-left: 10px;
+                font-family: monospace;
+                color: $black;
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: 400;
+            }
+
+            &_list {
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                margin-left: 10px;
+                @include flex(space-between, space-between, row);
+
+                &_item {
+                    @include flex(center, flex-start, row);
+                    gap: 8px;
+
+                    >a {
+                        text-decoration: none;
+                        color: $bluefort;
+                    }
+                }
+            }
+        }
+    }
+
+    &_Card {
+        margin-top: 80px;
+
+        @include XLargeDevices() {
+            margin-top: 350px;
+        }
+
+        // @media (max-width: 768px) {
+        //     margin-top: 350px;
+        //     background-color: red;
+        // }
+    }
+
+    &_Cards {
+        @include flex(space-between, center, row);
+
+        @include MediumDevices() {
+            @include flex(center, center, column);
+        }
+
+        gap: 15px;
+
+        &_list {
+            background-color: $white;
+            padding: 25px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            list-style-type: none;
+
+            &_icon {
+                font-size: 40px;
+            }
+
+            &_titre {
+                margin-top: -15px;
+                font-family: cursive;
+            }
+
+            &_text {
+                line-height: 25px;
+                font-family: monospace;
+                color: $black;
+                font-size: 1rem;
+                line-height: 1.5;
+                font-weight: 400;
+            }
+        }
+    }
+}

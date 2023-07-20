@@ -4,7 +4,7 @@ export const DataItem = [
     {
         "icon": <MdDeveloperBoard />,
         "titre": "Web Developer",
-        "text": " Développer des sites Web ou d'autres applications multimédias. Gestion des bases de données et des frameworks les plus célèbres comme React et Spring Boot"
+        "text": " Innovant, création et maintenance d'applications. Maîtrise de Java, JavaScript ainsi que des bibliothèques modernes."
     },
     {
         "icon": <MdOutlineCastForEducation />,

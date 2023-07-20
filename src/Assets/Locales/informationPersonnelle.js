@@ -9,6 +9,6 @@ export const DataItem = [
     {
         "icon": <MdOutlineCastForEducation />,
         "titre": "Education Professionnel",
-        "text": "Un mélange entre l'enseignement académique trois ans après le bac et l'autoformation Pour plus d'informations ou une prestation de services, contactez-nous."
+        "text": " Un mélange entre l'enseignement académique trois ans après le bac et l'autoformation Pour plus d'informations ou une prestation de services, contactez-nous."
     }
 ]

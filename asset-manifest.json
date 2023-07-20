@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BoxPort/static/css/main.2aa6ee9e.css",
-    "main.js": "/BoxPort/static/js/main.bf800d99.js",
+    "main.js": "/BoxPort/static/js/main.b8a981fb.js",
     "static/media/Reda IBENAHMED.pdf": "/BoxPort/static/media/Reda IBENAHMED.d9be67ecd8302ad378db.pdf",
     "static/media/myimage.png": "/BoxPort/static/media/myimage.0b8db49aa5e5a0168e04.png",
     "index.html": "/BoxPort/index.html",
     "main.2aa6ee9e.css.map": "/BoxPort/static/css/main.2aa6ee9e.css.map",
-    "main.bf800d99.js.map": "/BoxPort/static/js/main.bf800d99.js.map"
+    "main.b8a981fb.js.map": "/BoxPort/static/js/main.b8a981fb.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa6ee9e.css",
-    "static/js/main.bf800d99.js"
+    "static/js/main.b8a981fb.js"
   ]
 }
